@@ -6,4 +6,5 @@ return {
   require 'custom.plugins.diffview',
   require 'custom.plugins.nvim-tmux-navigator',
   require 'custom.plugins.vim-test',
+  require 'custom.plugins.neo-tree',
 }

@@ -15,6 +15,8 @@ return {
   },
   opts = {
     filesystem = {
+      follow_current_file = true,
+      use_libuv_file_watcher = true,
       filtered_items = {
         hide_dotfiles = false,
         hide_gitignored = false,
@@ -27,6 +29,12 @@ return {
           ['\\'] = 'close_window',
         },
       },
+    },
+    buffers = {
+      follow_current_file = true,
+    },
+    git_status = {
+      follow_current_file = true,
     },
   },
 }
