@@ -791,6 +791,10 @@ require('lazy').setup({
 
       -- You can configure highlights by doing something like:
       vim.cmd.hi 'Comment gui=none'
+      vim.cmd [[
+        hi Normal guifg=#bbc2cf guibg=#0c0c0c
+        hi NormalNC guifg=#5c6370 guibg=#1c1f24
+      ]]
     end,
   },
 
