@@ -3,7 +3,6 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  require 'custom.plugins.diffview',
   require 'custom.plugins.nvim-tmux-navigator',
   require 'custom.plugins.vim-test',
   require 'custom.plugins.neo-tree',
